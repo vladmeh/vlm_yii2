@@ -1,0 +1,56 @@
+@import "base";
+
+html, body{
+  height: 100%;
+}
+
+body{
+  background:{
+    image: image-url("bg.png",false,false);
+    repeat: repeat;
+    color: #ffffff;
+  }
+}
+.flow-text{
+  @media (max-width: 360px){
+    font-size: 1.2rem;
+  }
+}
+.box-images{
+  @media (max-height: 600px){
+    display: none;
+  }
+}
+.freelance-link{
+  >a{
+    text-transform: none;
+  }
+  .freelance{
+    font:{
+      family: "PT Sans Narrow", sans-serif;
+      size: 18px;
+    }
+
+    &::before{
+      font-family: Freelancer;
+      font-size: 22px;
+      float: left;
+      margin-right: 15px;
+    }
+  }
+  .hh{
+    &::before{
+      content: "\23";
+    }
+  }
+  .fl{
+    &::before{
+      content: "\46";
+    }
+  }
+  .wl{
+    &::before{
+      content: "\57";
+    }
+  }
+}

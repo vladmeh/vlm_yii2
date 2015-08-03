@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Freelancer';
+  src:url('/font/freelancer/Freelancer.eot');
+  src:url('/font/freelancer/Freelancer.eot?#iefix') format('embedded-opentype'),
+    url('/font/freelancer/Freelancer.woff') format('woff'),
+    url('/font/freelancer/Freelancer.ttf') format('truetype'),
+    url('/font/freelancer/Freelancer.svg#Freelancer') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Narrow"), local("PTSans-Narrow"), url("http://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4UU-p1xzoRgkupcXIqgYFBc.woff2") format("woff2"), url("http://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff") format("woff");
+}
