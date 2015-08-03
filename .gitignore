@@ -29,8 +29,6 @@ themes/classic/views/
 # sftp configuration file
 sftp-config.json
 
-
-
 config.rb
 fire_app_log.txt
 materialize-src-v0.96.1.zip
@@ -38,8 +36,8 @@ materialize-src-v0.96.1.zip
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
+.idea/*
+# *.iml
 out
 gen
 
