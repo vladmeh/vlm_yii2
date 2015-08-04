@@ -35,7 +35,6 @@ materialize-src-v0.96.1.zip
 webhook.php
 payload.json
 
-.idea/*
-
+.idea
 ### Example user template template
 ### Example user template
