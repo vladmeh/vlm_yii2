@@ -29,6 +29,7 @@ themes/classic/views/
 # sftp configuration file
 sftp-config.json
 
+### Example user template
 config.rb
 fire_app_log.txt
 materialize-src-v0.96.1.zip
@@ -36,5 +37,8 @@ webhook.php
 payload.json
 
 .idea
-### Example user template template
-### Example user template
+
+### SVN template
+.svn/
+
+
